@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <title>Test Build</title>
+    </head>
+    <body>
+
+        <!-- First navbar section -->
+
+        <div class="container">
+            <div class="first-navbar">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="#"><small>How it works</small></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="#"><small>Log In</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link green-text" href="#"><small>|</small></a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link green-text" href="#"><small>Sign Up</small></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <hr class="">
+        </div>
+
+        <div class="container">
+            <!-- Main navbar section for desktop -->
+
+            <div class="container-fluid d-flex justify-content-between main-navbar-desktop my-4">
+                <!-- Navbar logo -->
+                <a class=""><img src="img/logo-2.png" class="img-fluid" alt=""></a>
+                <!-- Navbar search input form -->
+                <form class="d-flex">
+                    <div class="input-group nav-form my-2">
+                        <div>
+                            <img src="img/search.svg" class = "input-group-text bg-light img-fluid h-100" alt="">
+                        </div>
+                        <input type="text" class="form-control bg-light text-dark navbar-input-desk text-muted" placeholder="search for products">
+                        <div class="input-group-prepend">
+                            <button class="btn yellow-btn text-white h-100" type="submit">SEARCH</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="d-flex">
+                    <div class="navbar-icons position-relative">
+                        <a class="nav-link" href="#"><i class= "fa fa-shopping-cart fa-2x nav-icons"></i><img src="img/Group 6.png" class="overlay position-absolute" alt=""></a>
+                        <small class="text-muted ms-3 cart">cart</small>
+                    </div>
+                    <div class="navbar-icons position-relative">
+                        <a class="nav-link" href="#"><i class= "fa fa-heart fa-2x nav-icons"></i><img src="img/Group 6.png" class="overlay position-absolute" alt=""></a>
+                        <small class="text-muted cart">wishlist</small>
+                    </div>
+                    <div class="navbar-icons position-relative">
+                        <a class="nav-link" href="#"><i class= "fa fa-bell fa-2x nav-icons"><img src="img/Group 6.png" class="overlay position-absolute" alt=""></i></a>
+                        <small class="text-muted cart">notification</small>
+                    </div>
+                </div>
+                    
+            </div>
+            <!-- Main navbar section for mobile-->
+
+            <div class="main-navbar">
+                <nav class="navbar navbar-expand-md navbar-light bg-white">
+                    <div class="container-fluid">
+                        <!-- Navbar logo -->
+                        <a class="navbar-brand"><img src="img/logo-2.png" class="img-fluid logo" alt=""></a>
+                        <!-- Navbar search input form -->
+                        <form class="d-flex">
+                            <div class="input-group nav-form my-2">
+                                <div>
+                                    <img src="img/search.svg" class = "input-group-text bg-light img-fluid h-100" alt="">
+                                </div>
+                                <input type="text" class="form-control bg-light text-dark navbar-input-desk text-muted" placeholder="search for products">
+                                <div class="input-group-prepend">
+                                    <button class="btn yellow-btn text-white h-100" type="submit">SEARCH</button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <div class="navbar-icons position-relative">
+                                    <a class="nav-link" href="#"><i class= "fa fa-shopping-cart fa-2x nav-icons"></i><img src="img/Group 6.png" class="overlay position-absolute" alt=""></a>
+                                    <small class="text-muted ms-3 cart">cart</small>
+                                </div>
+                                <div class="navbar-icons position-relative">
+                                    <a class="nav-link" href="#"><i class= "fa fa-heart fa-2x nav-icons"></i><img src="img/Group 6.png" class="overlay position-absolute" alt=""></a>
+                                    <small class="text-muted cart">wishlist</small>
+                                </div>
+                                <div class="navbar-icons position-relative">
+                                    <a class="nav-link" href="#"><i class= "fa fa-bell fa-2x nav-icons"><img src="img/Group 6.png" class="overlay position-absolute" alt=""></i></a>
+                                    <small class="text-muted cart">notification</small>
+                                </div>
+                                
+                            </div>
+                            <!-- Navbar search input form small screen-->
+                            <span class="navbar-text navbar-text mt-2 d-flex">
+                                <form class="d-flex">
+                                    <div class="input-group nav-form-sm my-2">
+                                        <div>
+                                            <img src="img/search.svg" class = "input-group-text bg-light img-fluid h-100" alt="">
+                                        </div>
+                                        <input type="text" class="form-control bg-light text-dark navbar-input-desk text-muted" placeholder="search for products">
+                                        <div class="input-group-prepend">
+                                            <button class="btn yellow-btn text-white h-100" type="submit">SEARCH</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- main body first section-->
+
+            <div class="row mt-3 h-100">
+                <!-- categories -->
+                <div class="col-md-4">
+                    <div class="categories p-3">
+                        CATEGORIES
+                    </div>
+                    <div class="card shadow py-1 bg-white rounded main-categories">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="categories-text">Men's wear</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Fashion</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Electronics</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Kitchen</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Bedroom Makeover</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Makeup for Women</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Accessories</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-2 two">
+                                <div class="col-12 col-md-12 col-lg-12 border border-white">
+                                    <select name="" id="" class=" p-1 h-100 w-100 border-0">
+                                        <option selected value="" class="">Cars Automobile</option>
+                                    </select>
+                                </div>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                </div>
+                <!-- new collection -->
+                <div class="col-md-8 collection">
+                    <div class="collection-text">
+                        <h1>NEW COLLECTION</h1>
+                        <p>
+                            <small>It is a long established fact that a reader will be distracted by the readable 
+                            content of a page when looking at its layout.</small>
+                        </p>
+                        <button class="btn btn-outline-warning text-warning hover-text-white mt-2 btn-shop-now" type="submit"><small>SHOP NOW</small></button>
+                    </div>
+                    <div class="dots">
+                        <div class="d-flex justify-content-center w-100">
+                            <img src="img/Ellipse 2.png" alt="">
+                            <img src="img/Ellipse 2.1.png" alt="" class="px-2">
+                            <img src="img/Ellipse 2.1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- first cards section -->
+            <div class="card shadow py-1 my-5 bg-white rounded main-categories">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item py-2 two">
+                        <div class="col-12 col-md-12 col-lg-12 border border-white">
+                            <small>EXPLORE POPULAR CATERGORIES</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item mx-4 py-2">
+                        <div class="row pt-5">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="text-muted"><del>₦15,000.00</del></small>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="text-muted"><del>₦15,000.00</del></small>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- second cards section, the first cards section crawled so that the second cards section could fly -->
+            
+            <div class="card shadow py-1 my-5 bg-white rounded main-categories">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item py-2 two">
+                        <div class="col-12 col-md-12 col-lg-12 border border-white">
+                            <small>EXPLORE NEW STUFF</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item mx-4 py-2">
+                        <div class="row pt-5">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="text-muted"><del>₦15,000.00</del></small>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="card sales border-0">
+                                    <img src="img/image 3.png" class="card-img-top" alt="...">
+                                    <div class="card-body ps-0">
+                                        <p>lorem ipsum</p>
+                                        <span class="stars d-flex pb-3">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star.png" alt="">
+                                            <img src="img/Star (1).png" alt="">
+                                        </span>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="text-muted"><del>₦15,000.00</del></small>
+                                            <small>₦15,000.00</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- desktop footer -->
+
+        <div class="desktop-footer">
+            <footer>
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between">
+                        <div class="">
+                            <h5 class="text-light"><small class="text-muted">PAYSMOSMO</small></h5>
+                            <p class="footer-text paysmosmo">
+                                <small class="text-muted">Help give out inventory loans to 
+                                    cooperative members with ease.</small>
+                            </p>
+                        </div>
+                        <div class="">
+                            <ul class="">
+                                <li><h5 class="text-light"><small class="text-muted">Contact</small></h5></li>
+                                <div class="footer-text">
+                                    <li><a href="#" class="footer-para-mobile text-muted"><small>Registration</small></a></li>
+                                <li class="py-2"><a href="#" class="footer-para-mobile text-muted"><small>About Us</small></a></li>
+                                <li><a href="#" class="footer-para-mobile text-muted"><small>Contact Us</small></a></li>
+                                </div>
+                                
+                            </ul>
+                        </div>
+                        <div class="">
+                            <ul class="">
+                                <li><h5 class="text-light"><small class="text-muted">Help</small></h5></li>
+                                <div class="footer-text">
+                                    <li><a href="#" class="footer-para-mobile text-muted"><small>Privacy Policy</small></a></li>
+                                    <li class="py-2"><a href="#" class="footer-para-mobile text-muted"><small>How it works</small></a></li>
+                                    <li><a href="#" class="footer-para-mobile text-muted"><small>Terms & Conditions</small></a></li>
+                                </div>
+                                
+                            </ul>
+                        </div>
+                        <div class="">
+                            <p class="text-muted">Stay Connected</p>
+                            <div class="column footer-text">
+                                <a href="#"><img src="img/fb.png" alt=""></a>
+                                <a href="#"><img src="img/twitter.png" alt="" class="twitter"></a>
+                                <a href="#"><img src="img/ig.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="d-flex">
+                                <a href="#" class="text-muted">Back to Top</a>
+                                <span style="color: white;"><a href="#" class="text-muted text-light p-1">^</a></span>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </footer>
+            <section class="container-fluid p-0">
+                <p class="text-muted copyright text-center py-2"><small>&copy;2018 PAYSMOSMO</small></p>
+            </section>
+        </div>
+
+        <!-- tab and mobile footer -->
+        <div class="others-footer">
+            <footer>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <h5 class="text-light"><small class="text-muted">PAYSMOSMO</small></h5>
+                            <p class="footer-text paysmosmo">
+                                <small class="text-muted">Help give out inventory loans to 
+                                    cooperative members with ease.</small>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <ul class="">
+                                <li><h5 class="text-light"><small class="text-muted">Contact</small></h5></li>
+                                <div class="footer-text">
+                                    <li><a href="#" class="footer-para-mobile text-muted"><small>Registration</small></a></li>
+                                <li class="py-2"><a href="#" class="footer-para-mobile text-muted"><small>About Us</small></a></li>
+                                <li><a href="#" class="footer-para-mobile text-muted"><small>Contact Us</small></a></li>
+                                </div>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <ul class="">
+                                <li><h5 class="text-light"><small class="text-muted">Help</small></h5></li>
+                                <div class="footer-text">
+                                    <li><a href="#" class="footer-para-mobile text-muted"><small>Privacy Policy</small></a></li>
+                                    <li class="py-2"><a href="#" class="footer-para-mobile text-muted"><small>How it works</small></a></li>
+                                    <li><a href="#" class="footer-para-mobile text-muted"><small>Terms & Conditions</small></a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="">
+                            <p class="text-muted">Stay Connected</p>
+                            <div class="column footer-text">
+                                <a href="#"><img src="img/fb.png" alt=""></a>
+                                <a href="#"><img src="img/twitter.png" alt="" class="twitter"></a>
+                                <a href="#"><img src="img/ig.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="d-flex">
+                                <a href="#" class="text-muted">Back to Top</a>
+                                <span style="color: white;"><a href="#" class="text-muted p-1">^</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <section class="container-fluid p-0">
+                <p class="text-muted copyright text-center py-2"><small>&copy;2018 PAYSMOSMO</small></p>
+            </section>
+        </div>
+
+
+
+
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

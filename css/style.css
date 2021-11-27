@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* First navbar */
+
+.green-text {
+    color: #4FA748;
+}
+
+/******* horizontal line ********/
+
+hr {
+    color: rgb(201, 201, 201);
+    height: 0.3rem !important;
+}
+
+/****** form *******/
+.input-group-text, .form-control{
+    border: none;
+    font-size: 0.8rem;
+}
+.navbar-input-desk {
+    width: 30rem !important;
+}
+.yellow-btn {
+    background-color: #F3D347;
+    font-size: 0.9rem;
+    border-radius: 0.15rem;
+    padding: 0 1.7rem;
+}
+/******* categories ********/
+.categories {
+    background-color: #4FA748;
+    color: white;
+    font-weight: 600;
+    font-style: normal;
+}
+.two :hover {
+    filter: brightness(90%);
+}
+select{
+    cursor: pointer;
+}
+/******* collection ********/
+.collection {
+    background-image: url('/img/Rectangle\ 2.png'), url('/img/image\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.collection-text {
+    color: white;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-bottom: 7rem;
+    width: 70%;
+}
+.btn-shop-now:hover {
+    color: white !important;
+}
+ ul li {
+     list-style: none;
+ }
+
+ /* Main nav bar */
+
+ .navbar-icons {
+     display: flex;
+     flex-direction: column;
+     margin: 0 1rem;
+     font-size: 0.9rem;
+ }
+ .cart {
+     margin-top: -0.6rem;
+ }
+ .nav-icons {
+     color: black;
+ }
+ .nav-icons :hover {
+    background-color: black !important;
+}
+
+/* Cards section */
+.sales :hover {
+    filter: brightness(70%);
+}
+.overlay {
+   left: 1.5rem;
+  }
+
+   /* footer */
+   footer {
+    background-color:#373A3C;
+    padding: 12vmin 12vmin;
+}
+   h5 {
+       font-weight: 900;
+   }
+   .footer-text {
+       font-size: 0.85rem;
+       padding: 1rem 0;
+   }
+   .copyright {
+       background-color:#2B2F31;
+       padding: 1rem 0 !important;
+   }
+   .twitter {
+       padding: 0 1rem;
+   }
+   .paysmosmo {
+       width: 65%;
+   }
+   footer a {
+       text-decoration: none;
+   }
+   footer a :hover {
+    color: white !important;
+}
